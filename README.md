@@ -2,7 +2,7 @@
 
 Welcome to the site for iFactor Consulting's open outage data discussion.
 
-We are not sure of the overall scope of this initiative.  Hosting our documentation and code/data samples on a site like github allows us to be introduce proposed changes and discuss them easily before deciding how to integrate them into the product.
+We are not sure of the overall scope of this initiative.  Hosting our documentation and code/data samples on a site like github allows us to introduce proposed changes and discuss them easily before deciding how to integrate them into the product.
 
 As this initiative progresses, this site will grow.
 
