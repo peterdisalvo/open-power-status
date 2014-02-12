@@ -58,7 +58,7 @@ outages.append(outage_area(id=4,
 
 fc = FeatureCollection(outages)
 
-with open('../../exchange_format/example.geojson','w') as o:
+with open('../../specification/example.geojson','w') as o:
     geojson.dump(fc, o, indent=4)
 
 

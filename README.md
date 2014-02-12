@@ -6,6 +6,14 @@ We are not sure of the overall scope of this initiative.  Hosting our documentat
 
 As this initiative progresses, this site will grow.
 
+## Specification
+The exchange format specification document and example can be found in the [`specification`](/specification) directory.
+
+
+## Code/Scripts
+Helpful code and scripts that support this initiative can be found in the [`code`](/code) directory.
+
+
 
 ## Contact
 For github-related questions, please contact
