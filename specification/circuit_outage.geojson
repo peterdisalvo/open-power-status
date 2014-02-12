@@ -3,60 +3,6 @@
     "features": [
         {
             "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -117.178438, 
-                    32.681087
-                ]
-            }, 
-            "type": "Feature", 
-            "id": 1, 
-            "properties": {
-                "etr": "2014-02-12T18:00:00", 
-                "customers_affected": 29, 
-                "marker-color": "#FF0000", 
-                "number_outages": 28, 
-                "feature_type": "point"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -117.185175, 
-                    33.760766
-                ]
-            }, 
-            "type": "Feature", 
-            "id": 2, 
-            "properties": {
-                "etr": "2014-02-12T18:00:00", 
-                "customers_affected": 134, 
-                "marker-color": "#FF0000", 
-                "number_outages": 23, 
-                "feature_type": "point"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -117.849355, 
-                    33.730927
-                ]
-            }, 
-            "type": "Feature", 
-            "id": 3, 
-            "properties": {
-                "etr": "2014-02-12T18:00:00", 
-                "customers_affected": 4, 
-                "marker-color": "#FF0000", 
-                "number_outages": 4, 
-                "feature_type": "point"
-            }
-        }, 
-        {
-            "geometry": {
                 "type": "Polygon", 
                 "coordinates": [
                     [
