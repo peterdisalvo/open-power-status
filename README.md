@@ -9,6 +9,8 @@ As this initiative progresses, this site will grow.
 ## Specification
 The exchange format specification document and example can be found in the [`specification`](/specification) directory.
 
+![Outages UML](code/java/diagrams/Outage.png)
+
 
 ## Code/Scripts
 Helpful code and scripts that support this initiative can be found in the [`code`](/code) directory.

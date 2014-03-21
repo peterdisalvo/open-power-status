@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.redbutton.Outage</OriginalElement>
+  <nodes>
+    <node x="328.29166666666663" y="0.0">org.redbutton.Coordinate</node>
+    <node x="0.0" y="118.0">org.redbutton.Zipcode</node>
+    <node x="185.0" y="118.0">org.redbutton.Polygon</node>
+    <node x="586.0" y="118.0">org.redbutton.County</node>
+    <node x="404.0" y="118.0">org.redbutton.Point</node>
+    <node x="234.24999999999997" y="226.0">org.redbutton.Outage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.redbutton.Outage" target="org.redbutton.Zipcode">
+      <point x="-125.41666666666663" y="-94.0" />
+      <point x="259.33333333333337" y="206.0" />
+      <point x="41.25" y="206.0" />
+      <point x="-41.25" y="24.0" />
+    </edge>
+    <edge source="org.redbutton.Zipcode" target="org.redbutton.Outage">
+      <point x="41.25" y="24.0" />
+      <point x="123.75" y="196.0" />
+      <point x="309.5" y="196.0" />
+      <point x="-75.25" y="-94.0" />
+    </edge>
+    <edge source="org.redbutton.Point" target="org.redbutton.Coordinate">
+      <point x="0.0" y="-24.0" />
+      <point x="485.0" y="93.0" />
+      <point x="415.29166666666663" y="93.0" />
+      <point x="29.0" y="34.0" />
+    </edge>
+    <edge source="org.redbutton.Polygon" target="org.redbutton.Coordinate">
+      <point x="0.0" y="-24.0" />
+      <point x="284.5" y="93.0" />
+      <point x="357.29166666666663" y="93.0" />
+      <point x="-29.0" y="34.0" />
+    </edge>
+    <edge source="org.redbutton.Outage" target="org.redbutton.County">
+      <point x="75.25" y="-94.0" />
+      <point x="460.0" y="196.0" />
+      <point x="627.25" y="196.0" />
+      <point x="-41.25" y="24.0" />
+    </edge>
+    <edge source="org.redbutton.County" target="org.redbutton.Outage">
+      <point x="41.25" y="24.0" />
+      <point x="709.75" y="206.0" />
+      <point x="510.16666666666663" y="206.0" />
+      <point x="125.41666666666663" y="-94.0" />
+    </edge>
+    <edge source="org.redbutton.Outage" target="org.redbutton.Point">
+      <point x="25.08333333333337" y="-94.0" />
+      <point x="409.83333333333337" y="186.0" />
+      <point x="485.0" y="186.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="org.redbutton.Outage" target="org.redbutton.Polygon">
+      <point x="-25.083333333333314" y="-94.0" />
+      <point x="359.66666666666663" y="186.0" />
+      <point x="284.5" y="186.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="375.5" y="207.0" />
+  <SelectedNodes>
+    <node>org.redbutton.County</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
