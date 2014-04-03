@@ -9,6 +9,8 @@ As this initiative progresses, this site will grow.
 ## Specification
 The exchange format specification document and example can be found in the [`specification`](/specification) directory.
 
+Join the collaborative UML project at [GenMyModel](http://app.genmymodel.com/genmymodel?share=_JnaPcJyQEDGdyoFyp4l9hw)
+
 ![Outages UML](code/java/diagrams/Outage.png)
 
 
