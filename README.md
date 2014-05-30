@@ -1,4 +1,4 @@
-# What is the Open Outage Status Initiative?
+# What is the Outage Data Standard initiative?
 This is a voluntary industry effort to develop an open standard for the sharing of power outage and restoration information. This open sharing is intended to support the efforts of utilities coordinating with the first responder community, the public health community, other emergency operations and government entities, and utility mutual aid activities during crises other outage situations. The development of a common standard will allow utilities to publish data with appropriate attribution and control to allow for rapid exchange of information as well as integration of power status data with other datasets during these events to support better situational awareness. 
 
 # How does it work?
