@@ -1,0 +1,93 @@
+{
+	"creationDate": "2014-04-09T16:48:25.041+0000",
+	"frequency": 0,
+	"outageLocations": [{
+		"id": "O-9099",
+		"customersAffected": 123,
+		"customersServed": 122222,
+		"provider": "SDG&E",
+		"criticalCustomers": false,
+		"etrConfidence": "LOW",
+		"crewStatus": "ARRIVED",
+		"polygon": {
+			"coordinates": [{
+				"x": -117.101383,
+				"y": 32.649782
+			},
+			{
+				"x": -117.078209,
+				"y": 32.65672
+			},
+			{
+				"x": -117.070313,
+				"y": 32.651806
+			},
+			{
+				"x": -117.062588,
+				"y": 32.646313
+			},
+			{
+				"x": -117.053146,
+				"y": 32.636917
+			},
+			{
+				"x": -117.042675,
+				"y": 32.623906
+			},
+			{
+				"x": -117.041988,
+				"y": 32.621015
+			},
+			{
+				"x": -117.085762,
+				"y": 32.609881
+			},
+			{
+				"x": -117.101383,
+				"y": 32.649782
+			}]
+		}
+	},
+	{
+		"id": "O-1011",
+		"customersAffected": 10000,
+		"customersServed": 1500000,
+		"provider": "SDG&E",
+		"criticalCustomers": false,
+		"etr": "2014-04-09T16:48:25.041+0000",
+		"etrConfidence": "LOW",
+		"crewStatus": "FIELD_COMPLETE",
+		"area": {
+			"name": "San Diego",
+			"type": "COUNTY",
+			"numberOfCrews": 200
+		}
+	},
+	{
+		"id": "O-1011",
+		"customersAffected": 3434,
+		"customersServed": 12220,
+		"provider": "SDG&E",
+		"criticalCustomers": false,
+		"etrConfidence": "LOW",
+		"crewStatus": "DISPATCHED",
+		"locationDescription": {
+			"description": "Hotel del Coronado, 92118"
+		}
+	},
+	{
+		"id": "O-1224",
+		"customersAffected": 100,
+		"customersServed": 1000,
+		"provider": "SCE",
+		"criticalCustomers": true,
+		"etrConfidence": "HIGH",
+		"crewStatus": "ASSIGNED",
+		"point": {
+			"coordinate": {
+				"x": -117.918979,
+				"y": 33.810749
+			}
+		}
+	}]
+}
