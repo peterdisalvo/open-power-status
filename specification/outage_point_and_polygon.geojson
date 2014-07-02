@@ -1,0 +1,85 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "GeometryCollection", 
+                "geometries": [
+                    {
+                        "type": "Point", 
+                        "coordinates": [
+                            -117.101383, 
+                            32.649782
+                        ]
+                    }, 
+                    {
+                        "type": "Polygon", 
+                        "coordinates": [
+                            [
+                                [
+                                    -117.101383, 
+                                    32.649782
+                                ], 
+                                [
+                                    -117.078209, 
+                                    32.65672
+                                ], 
+                                [
+                                    -117.070313, 
+                                    32.651806
+                                ], 
+                                [
+                                    -117.062588, 
+                                    32.646313
+                                ], 
+                                [
+                                    -117.053146, 
+                                    32.636917
+                                ], 
+                                [
+                                    -117.042675, 
+                                    32.623906
+                                ], 
+                                [
+                                    -117.041988, 
+                                    32.621015
+                                ], 
+                                [
+                                    -117.085762, 
+                                    32.609881
+                                ], 
+                                [
+                                    -117.101383, 
+                                    32.649782
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }, 
+            "type": "Feature", 
+            "id": "O-00001", 
+            "properties": {
+                "status": 1, 
+                "circuitFeeder": "AS-300", 
+                "ertConfidence": 1, 
+                "typeOfService": 0, 
+                "startTime": "2014-04-09T12:48:25-04:00", 
+                "crewStatus": 2, 
+                "ert": "2014-04-09T20:48:25-04:00", 
+                "ertDescription": "April 9th 2014, 8:48PM", 
+                "originalMetersAffected": 120, 
+                "comments": "Line down", 
+                "metersAffected": 100, 
+                "cause": 1
+            }
+        }
+    ], 
+    "metadata": {
+        "timestamp": "2014-04-09T16:48:25-04:00", 
+        "utilityDisclaimer": "Restoration Estimations could be adjusted depending on future conditions", 
+        "updateFrequencyDataExpiration": 900, 
+        "utilityLogo": "http://content.screencast.com/users/alfred_ifactor/folders/openpowerstatus/media/dbd7f950-8b68-4946-98e5-5dd69d56f2c0/logo.png", 
+        "utility": "IFACTOR"
+    }
+}
