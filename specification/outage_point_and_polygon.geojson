@@ -64,9 +64,9 @@
                 "circuitFeeder": "AS-300", 
                 "ertConfidence": 1, 
                 "typeOfService": 0, 
-                "startTime": "2014-04-09T12:48:25-04:00", 
+                "startTime": "2014-04-09T12:48:25-0400", 
                 "crewStatus": 2, 
-                "ert": "2014-04-09T20:48:25-04:00", 
+                "ert": "2014-04-09T20:48:25-0400", 
                 "ertDescription": "April 9th 2014, 8:48PM", 
                 "originalMetersAffected": 120, 
                 "comments": "Line down", 
@@ -76,7 +76,7 @@
         }
     ], 
     "metadata": {
-        "timestamp": "2014-04-09T16:48:25-04:00", 
+        "timestamp": "2014-04-09T16:48:25-0400", 
         "utilityDisclaimer": "Restoration Estimations could be adjusted depending on future conditions", 
         "updateFrequencyDataExpiration": 900, 
         "utilityLogo": "http://content.screencast.com/users/alfred_ifactor/folders/openpowerstatus/media/dbd7f950-8b68-4946-98e5-5dd69d56f2c0/logo.png", 

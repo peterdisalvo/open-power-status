@@ -68,7 +68,7 @@ def create_outage(id, startTime, metersAffected, originalMetersAffected, ert,
 ############# SCENARIO 1 - creating an outage with a single point #######################
 
 
-metadata = {"timestamp": "2014-04-09T16:48:25-04:00", # time should be in ISO 8601 format
+metadata = {"timestamp": "2014-04-09T16:48:25-0400", # time should be in ISO 8601 format
             "updateFrequencyDataExpiration": 900, # seconds
             "utility": "IFACTOR",
             "utilityDisclaimer": "Restoration Estimations could be adjusted depending on future conditions",
@@ -76,10 +76,10 @@ metadata = {"timestamp": "2014-04-09T16:48:25-04:00", # time should be in ISO 86
 
 outages = []
 outages.append(create_outage(id="O-00001",
-                             startTime="2014-04-09T12:48:25-04:00", # time should be in ISO 8601 format
+                             startTime="2014-04-09T12:48:25-0400", # time should be in ISO 8601 format
                              metersAffected=100,
                              originalMetersAffected=120,
-                             ert="2014-04-09T20:48:25-04:00", # time should be in ISO 8601 format
+                             ert="2014-04-09T20:48:25-0400", # time should be in ISO 8601 format
                              ertDescription="April 9th 2014, 8:48PM",
                              ertConfidence=ErtConfidenceType.LOW,
                              comments="Line down",
@@ -101,7 +101,7 @@ with open('../../specification/outage_single_point.geojson', 'w') as o:
 ############# SCENARIO 2 - creating an outage with a point and polygon #######################
 
 
-metadata = {"timestamp": "2014-04-09T16:48:25-04:00", # time should be in ISO 8601 format
+metadata = {"timestamp": "2014-04-09T16:48:25-0400", # time should be in ISO 8601 format
             "updateFrequencyDataExpiration": 900, # seconds
             "utility": "IFACTOR",
             "utilityDisclaimer": "Restoration Estimations could be adjusted depending on future conditions",
@@ -109,10 +109,10 @@ metadata = {"timestamp": "2014-04-09T16:48:25-04:00", # time should be in ISO 86
 
 outages = []
 outages.append(create_outage(id="O-00001",
-                             startTime="2014-04-09T12:48:25-04:00", # time should be in ISO 8601 format
+                             startTime="2014-04-09T12:48:25-0400", # time should be in ISO 8601 format
                              metersAffected=100,
                              originalMetersAffected=120,
-                             ert="2014-04-09T20:48:25-04:00", # time should be in ISO 8601 format
+                             ert="2014-04-09T20:48:25-0400", # time should be in ISO 8601 format
                              ertDescription="April 9th 2014, 8:48PM",
                              ertConfidence=ErtConfidenceType.LOW,
                              comments="Line down",
