@@ -10,29 +10,24 @@ Determine objectives and schedule for initiative, what we want this to become an
 
 
 # [Data](data/README.md)
-Determine standard for providing data. Options discussed: batch, incremental, push, pull LEAD Needed.
+Determine standard for providing data. Options discussed: batch, incremental, push, pull LEAD Needed.  Create data dictionary, determine format for data fields, label data fields, schema.
 
 - @plargeng (Lead)
-- @DeezleSince74
-- @twmoses
-- @alfred-ifactor 
-
-# [Data Fields](data_fields/README.md)
-Create data dictionary, determine format for data fields, label data fields, schema.
-
 - @AndrewE14 (Lead)
 - @DeezleSince74
+- @twmoses
+- @DeezleSince74
 - @vdadhra
-- @alfred-ifactor
 - @gbinger
+- @alfred-ifactor
 
 # [Modeling](modeling/README.md)
 Model for initiative 
-
-- @alfred-ifactor (Lead)
+- MG (Lead)
 - @jhorstman
 - @jcalzada1
 - @ozhogin
+- @alfred-ifactor
 
 
 # Facilitators
