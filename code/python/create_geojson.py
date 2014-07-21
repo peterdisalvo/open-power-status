@@ -139,3 +139,41 @@ with open('../../specification/outage_point_and_polygon.geojson', 'w') as o:
     geojson.dump(outage_document, o, indent=4)
 
 
+
+############# SCENARIO 3 - SCE outage #######################
+
+
+metadata = {"timestamp": "July 2, 2014, 3:02 pm", # time should be in ISO 8601 format
+            "updateFrequencyDataExpiration": 900, # seconds
+            "utility": "Southern California Edison",
+            "utilityDisclaimer": "Restoration Estimations could be adjusted depending on future conditions",
+            "utilityLogo": "Not Available"}
+
+outages = []
+outages.append(create_outage(id="614348",
+                             startTime="2014-02-02 14:54:42.000000", # time should be in ISO 8601 format
+                             metersAffected="Not Available",
+                             originalMetersAffected=1091,
+                             ert="2014-02-02 16:00:00.000000", # time should be in ISO 8601 format
+                             ertDescription="06",
+                             ertConfidence="Not Available",
+                             comments="Snow and ice",
+                             crewStatus="01",
+                             cause="06",
+                             circuitFeeder="Not Available",
+                             status="01",
+                             typeOfService="Not Available",
+                             geometryCollection=GeometryCollection([Point((-117.24518943176, 33.9117028097635)),
+                                                                    Polygon([[(-117.286992,33.9034595000066),
+                                                                              (-117.225044,33.9034595000066),
+                                                                              (-117.225044,33.9159865000346),
+                                                                              (-117.286992,33.9159865000346),
+                                                                              (-117.286992,33.9034595000066)]])])))
+
+
+outage_document = create_outage_document(metadata, outages)
+
+with open('../../specification/sce_outage.geojson', 'w') as o:
+    geojson.dump(outage_document, o, indent=4)
+
+
