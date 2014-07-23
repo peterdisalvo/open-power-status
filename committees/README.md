@@ -19,6 +19,7 @@ Determine standard for providing data. Options discussed: batch, incremental, pu
 - @DeezleSince74
 - @vdadhra
 - @gbinger
+- @Msayers
 - @alfred-ifactor
 
 # [Modeling](modeling/README.md)
@@ -27,6 +28,7 @@ Model for initiative
 - @jhorstman
 - @jcalzada1
 - @ozhogin
+- @Msayers
 - @alfred-ifactor
 
 
