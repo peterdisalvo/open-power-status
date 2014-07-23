@@ -1,4 +1,4 @@
-# Data Fields Committee
+# Data Committee
 
 
 ## Class Diagram
