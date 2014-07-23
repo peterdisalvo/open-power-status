@@ -24,7 +24,7 @@ Determine standard for providing data. Options discussed: batch, incremental, pu
 
 # [Modeling](modeling/README.md)
 Model for initiative 
-- MG (Lead)
+- @margaretgoodrich (Lead)
 - @jhorstman
 - @jcalzada1
 - @ozhogin
