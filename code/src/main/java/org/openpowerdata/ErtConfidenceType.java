@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 public enum ErtConfidenceType {
 	HIGH, LOW

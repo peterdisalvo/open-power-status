@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -29,4 +29,12 @@ public class Coordinate {
 	public void setY(float y) {
 		this.y = y;
 	}
+
+    @Override
+    public String toString() {
+        return "Coordinate{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

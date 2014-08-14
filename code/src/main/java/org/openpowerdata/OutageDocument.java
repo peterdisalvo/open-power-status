@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -10,13 +10,20 @@ import java.util.Collection;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class OutageDocument {
 
-	Collection<org.openpowerdata.schema.Outage> outages = new ArrayList();
+    private Collection<Outage> outages = new ArrayList();
 
-	public Collection<org.openpowerdata.schema.Outage> getOutages() {
+    private Collection<Outage> getOutages() {
 		return outages;
 	}
 
-	public void setOutages(Collection<org.openpowerdata.schema.Outage> outages) {
+    private void setOutages(Collection<Outage> outages) {
 		this.outages = outages;
 	}
+
+    @Override
+    public String toString() {
+        return "OutageDocument{" +
+                "outages=" + outages +
+                '}';
+    }
 }

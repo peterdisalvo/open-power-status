@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Point {
 
-	Coordinate coordinate;
+    private Coordinate coordinate;
 
 	public Point(Coordinate coordinate) {
 		this.coordinate = coordinate;
@@ -23,4 +23,11 @@ public class Point {
 	public void setCoordinate(Coordinate coordinate) {
 		this.coordinate = coordinate;
 	}
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "coordinate=" + coordinate +
+                '}';
+    }
 }

@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -6,9 +6,9 @@ import javax.xml.bind.annotation.XmlAccessorType;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class OutageLocation extends Outage {
 
-	CommunityDescriptor communityDescriptor;
-	Point point;
-	Polygon polygon;
+	private CommunityDescriptor communityDescriptor;
+    private Point point;
+    private Polygon polygon;
 
 	public CommunityDescriptor getCommunityDescriptor() {
 		return communityDescriptor;
@@ -33,4 +33,13 @@ public class OutageLocation extends Outage {
 	public void setPolygon(Polygon polygon) {
 		this.polygon = polygon;
 	}
+
+    @Override
+    public String toString() {
+        return "OutageLocation{" +
+                "communityDescriptor=" + communityDescriptor +
+                ", point=" + point +
+                ", polygon=" + polygon +
+                '}';
+    }
 }

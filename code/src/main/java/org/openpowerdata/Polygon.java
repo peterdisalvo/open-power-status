@@ -1,4 +1,4 @@
-package org.openpowerdata.schema;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -16,4 +16,11 @@ public class Polygon {
 	public void setCoordinates(Collection<Coordinate> coordinates) {
 		this.coordinates = coordinates;
 	}
+
+    @Override
+    public String toString() {
+        return "Polygon{" +
+                "coordinates=" + coordinates +
+                '}';
+    }
 }

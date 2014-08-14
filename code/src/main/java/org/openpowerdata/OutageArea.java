@@ -1,10 +1,9 @@
-package org.openpowerdata.schema;
-
-import org.joda.time.DateTime;
+package org.openpowerdata;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import java.util.*;
+import java.util.Collection;
+import java.util.Date;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class OutageArea extends Outage {
@@ -12,15 +11,15 @@ public class OutageArea extends Outage {
 	/**
 	 * earliest reported outage time for this area
 	 */
-	public DateTime earliestReportedTime;
-	public int metersServed;
-	Collection<Area> areas;
+	private Date earliestReportedTime;
+    private int metersServed;
+    private Collection<Area> areas;
 
-	public DateTime getEarliestReportedTime() {
+	public Date getEarliestReportedTime() {
 		return earliestReportedTime;
 	}
 
-	public void setEarliestReportedTime(DateTime earliestReportedTime) {
+	public void setEarliestReportedTime(Date earliestReportedTime) {
 		this.earliestReportedTime = earliestReportedTime;
 	}
 
@@ -39,4 +38,13 @@ public class OutageArea extends Outage {
 	public void setAreas(Collection<Area> areas) {
 		this.areas = areas;
 	}
+
+    @Override
+    public String toString() {
+        return "OutageArea{" +
+                "earliestReportedTime=" + earliestReportedTime +
+                ", metersServed=" + metersServed +
+                ", areas=" + areas +
+                '}';
+    }
 }
